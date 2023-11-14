@@ -14,8 +14,8 @@ This project is a creative take on a digital clock, utilizing a circular arrange
 - **Discreet Bottom Connection**: The power and data connections for the LED ring are located at the bottom, minimizing visibility and maintaining the clock's aesthetic.
 
 ## Hardware Components
-- ESP32 WiFi Microcontroller [ACEIRMC D1 Mini NodeMCU ESP32 ESP-WROOM-32]([https://www.amazon.com/dp/B08PNWB81Z?th=1])
-- 2x 60 LED NeoPixel Ring (172mm) [60 LED 172mm Ring]([https://www.amazon.com/dp/B083W2ZWTQ])
+- ESP32 WiFi Microcontroller [ACEIRMC D1 Mini NodeMCU ESP32 ESP-WROOM-32] https://www.amazon.com/dp/B08PNWB81Z?th=1
+- 2x 60 LED NeoPixel Ring (172mm) [60 LED 172mm Ring] https://www.amazon.com/dp/B083W2ZWTQ
 - 2A USB power supply, ideally. You probably have some laying around.
 
 ## Software Libraries
