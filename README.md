@@ -2,7 +2,7 @@
 3D Printed Wall-Mounted NeoPixel LED Clock with NTP Synchronization
 
 ## Description
-This project is a creative take on a digital clock, utilizing a circular arrangement of NeoPixel LEDs that face towards the wall, casting an ambient glow that visually represents the time. It is designed to be wall-mounted with the LED ring's connection point situated at the bottom for a cleaner appearance. The clock synchronizes with NTP servers for precise timekeeping and automatically adjusts for daylight saving time in the Central European Timezone (CET/CEST).
+This project is a creative take on a digital clock, utilizing a circular arrangement of NeoPixel LEDs that face towards the wall, casting an ambient glow that visually represents the time. It is designed to be wall-mounted with the LED ring's connection point situated at the bottom for a cleaner appearance. The clock synchronizes with NTP servers for precise timekeeping and automatically adjusts for daylight saving time in the US Eastern Time (EDT, EST).
 
 ![NeoPixel LED Clock](/picture.jpg)
 
