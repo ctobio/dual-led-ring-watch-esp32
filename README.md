@@ -14,13 +14,12 @@ This project is a creative take on a digital clock, utilizing a circular arrange
 - **Discreet Bottom Connection**: The power and data connections for the LED ring are located at the bottom, minimizing visibility and maintaining the clock's aesthetic.
 
 ## Hardware Components
-- ESP8266 WiFi Microcontroller [WeMos D1 mini ESP8266](https://www.bastelgarage.ch/wemos-d1-mini-esp8266-nodemcu-lua-board)
-- 2x 60 LED NeoPixel Ring (172mm) [60 LED 172mm Ring](https://www.ebay.co.uk/itm/132996155861)
-- 5V Power Supply (adequate for powering the LED ring) [5V 2000mA USB](https://www.bastelgarage.ch/5v-2000ma-usb-netzteil-ac-dc-adapter-weiss)
-- Logic Level Shifter (if needed by the ESP8266) [Logic Level Converter 2-Kanal 5V / 3.3V](https://www.bastelgarage.ch/logic-level-converter-2-kanal-5v-3-3v)
+- ESP32 WiFi Microcontroller [ACEIRMC D1 Mini NodeMCU ESP32 ESP-WROOM-32]([https://www.amazon.com/dp/B08PNWB81Z?th=1])
+- 2x 60 LED NeoPixel Ring (172mm) [60 LED 172mm Ring]([https://www.amazon.com/dp/B083W2ZWTQ])
+- 2A USB power supply, ideally. You probably have some laying around.
 
 ## Software Libraries
-- `ESP8266WiFi` for WiFi functionality.
+- `WiFi` for WiFi functionality.
 - `WiFiManager` for easy WiFi setup without hardcoding credentials.
 - `Timezone` for handling local time and daylight saving adjustments.
 - `TimeLib` for time-related functions.
@@ -29,8 +28,8 @@ This project is a creative take on a digital clock, utilizing a circular arrange
 
 ## Setup Instructions
 1. Secure the NeoPixel LED ring to the desired wall location, ensuring the connection point is oriented at the bottom.
-2. Wire the LED ring to the ESP8266, taking care to connect to the correct data input and provide sufficient power.
-3. Upload the provided sketch to the ESP8266 using an IDE like Arduino IDE.
+2. Wire the LED ring to the ESP32, taking care to connect to the correct data input and provide sufficient power.
+3. Upload the provided sketch to the ESP32 using an IDE like Arduino IDE.
 4. At first startup, the device will create a WiFi access point named "NeoPixelClock" for configuration.
 5. Connect to this access point with a smartphone or computer to input your WiFi network details.
 6. The clock will then connect to your network and begin displaying the time, casting a beautiful ambient light onto the wall.
